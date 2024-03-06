@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .bgImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .card {
+    background: hsla(0, 0%, 100%, 0.8);
+    backdrop-filter: blur(30px);
+  }
+  
+  .mx4 {
+    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
+  }
+  
+  .mxMd5 {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  
+  .shadow5Strong {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+  }
+  

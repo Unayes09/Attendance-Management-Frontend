@@ -1,0 +1,93 @@
+.container {
+    background: linear-gradient(to bottom, #141e30, #243b55);
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 10rem;
+    font-weight: bold;
+    color: #4caf50;
+    margin-bottom: 30px;
+  }
+  
+  .content {
+    max-width: 600px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .logo {
+      font-size: 6rem;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+  
+    .button {
+      font-size: 0.8rem;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 4rem;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .description {
+      font-size: 0.9rem;
+    }
+  
+    .button {
+      font-size: 0.7rem;
+      padding: 8px 16px;
+    }
+  }
+  

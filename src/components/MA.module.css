@@ -1,0 +1,75 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(to bottom, #141e30, #243b55);
+    position: relative;
+    /* Allow container to scroll */
+    padding: 20px; /* Add padding */
+}
+
+.title {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.info {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input {
+    width: 100px; /* Adjust width as needed */
+}
+
+.tableContainer {
+    width: 100%;
+    max-height: calc(100vh - 320px); /* Adjust as needed */
+    overflow-y: auto; /* Add vertical scroll */
+}
+
+.table {
+    color: #fff;
+    width: 100%;
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+.table th,
+.table td {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-bottom: 1px solid #fff; /* Add bottom border to th and td */
+    text-align: center;
+}
+
+.printButtonContainer {
+    margin-top: 20px;
+}
+
+.printButton {
+    font-size: 1.2rem;
+}
