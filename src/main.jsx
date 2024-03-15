@@ -12,12 +12,16 @@ import AttendanceReport from "./components/AttendanceReport";
 import StudentReport from "./components/StudentReport";
 import ManualAttendance from "./components/ManualAttendance";
 import AddCourse from "./components/AddCourse";
-
+import Admin from "./components/Admin";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Firstpage />,
+  },
+  {
+    path: "/admin",
+    element: <Admin />,
   },
   {
     path: "/teacherRegister",
